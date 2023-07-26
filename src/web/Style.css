@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+.message{
+    padding: 10px;
+    margin: 20px;
+    width: fit-content;
+    background-color: lightgray;
+    border-radius: 5px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+   .message__user{
+    margin-left: auto;
+    color: rgb(255, 253, 253);
+    text-align: right !important;
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(46, 46, 209) !important;
+   }
+   .message__userCard{
+    background-color: rgb(46, 46, 209) !important;
+   }
+.message__guestCard{
+    background-color: lightgray !important;
+}
+.input{
+    margin-top: 10px;
+}
+.app__form{
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    margin: 20px;
+    background-color: #e9e9eb;
+
+}
+.app__formcontrol{
+    display: flex !important;
+    flex-direction: row !important;
+}
+.app__Input{
+    flex: 1;
+}
+.app__Iconbutton{
+    flex: 0;
+}
+/* .send{
+    margin-top: 3.2rem;
+    color: rgb(62, 134, 202);
+} */
